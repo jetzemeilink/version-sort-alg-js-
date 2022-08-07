@@ -23,7 +23,6 @@ function getHighest(arrayA, arrayB) {
   return 0;
 }
 
-
 const sortedVersions = versions.sort((a, b) => {
   const aSplitted = splitVersion(a);
   const bSplitted = splitVersion(b);
